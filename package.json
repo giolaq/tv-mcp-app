@@ -1,0 +1,23 @@
+{
+  "name": "tv-mcp-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "MCP App: interactive TV streaming interface for browsing, details, and video playback",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "NODE_OPTIONS='--max-old-space-size=8192' mcp-use build",
+    "dev": "mcp-use dev",
+    "start": "mcp-use start"
+  },
+  "dependencies": {
+    "mcp-use": "^1.19.2-canary.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "4.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "typescript": "^5.7.3"
+  }
+}
